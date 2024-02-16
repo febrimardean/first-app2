@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.imgContainer {
+    flex: 1;
+    height: 500px;
+    position: relative;
+}
+
+.img {
+    object-fit: contain;
+}
