@@ -1,0 +1,22 @@
+.container {
+    /* Properti lainnya tetap sama */
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    text-align: center;
+    background-color: var(--bg); /* Warna awal */
+    color: var(--text); /* Warna teks awal */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Menambahkan animasi */
+}
+
+.container:hover {
+    background-color: var(--text); /* Warna saat hover */
+    color: var(--bg); /* Warna teks saat hover */
+}
+
+
+.active {
+    background-color: var(--text);
+    color: var(--bg);
+}
