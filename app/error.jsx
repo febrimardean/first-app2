@@ -2,7 +2,9 @@
 
 const Error = () => {
     return (
-        <div>Error</div>
+        <div>
+            Your code is Error
+        </div>
     )
 }
 
